@@ -258,3 +258,91 @@ body {
     text-align: left;
     text-decoration-line: underline;
 }
+
+/* support section */
+.support-container {
+    width: 1071px;
+    height: 313px;
+    border: 2px solid yellow;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 16px;
+    background-image: url('../assets/handshake.jpg');
+    background-position: center;
+    background-size: cover;
+    background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), url(Email);
+
+}
+
+.support-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.support-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sup-title {
+    margin-bottom: 20px;
+
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.sup-description {
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.support-content input {
+    width: 515px;
+    height: 34px;
+    border-radius: 7px;
+    padding: 17px 18px 17px 18px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+
+}
+
+input::placeholder {
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.btn-submit {
+    width: 80px;
+    height: 34px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+}
